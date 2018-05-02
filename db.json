@@ -1,5 +1,5 @@
 {
-   "base" : "http://my-json-server.typicode.com/appility/bt-fake-json/"
+   "base" : "http://my-json-server.typicode.com/appility/bt-fake-json/",
    "endpoints":[
       "Order_Details_By_Order_ReferenceNumber",
       "Retrieve_Milestone_Details_For_Given_Order_Item"
