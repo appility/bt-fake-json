@@ -1,52 +1,7 @@
 {
-   "posts":[
-      {
-         "id":1,
-         "title":"hello"
-      }
-   ],
-   "profile":{
-      "name":"typicode"
-   },
-   "calls":[
-      {
-         "id":1,
-         "title":"hello",
-         "description":"hello",
-         "time":"hello"
-      },
-      {
-         "id":2,
-         "title":"hello",
-         "description":"hello",
-         "time":"hello"
-      },
-      {
-         "id":3,
-         "title":"hello",
-         "description":"hello",
-         "time":"hello"
-      }
-   ],
-   "contacts":[
-      {
-         "id":1,
-         "title":"hello",
-         "description":"hello",
-         "time":"hello"
-      },
-      {
-         "id":2,
-         "title":"hello",
-         "description":"hello",
-         "time":"hello"
-      },
-      {
-         "id":3,
-         "title":"hello",
-         "description":"hello",
-         "time":"hello"
-      }
+   "endpoints":[
+      "/Order_Details_By_Order_ReferenceNumber",
+      "/Retrieve_Milestone_Details_For_Given_Order_Item"
    ],
    "Retrieve_Milestone_Details_For_Given_Order_Item":{
       "isSuccess":true,
@@ -169,5 +124,25 @@
          "IsPreAppointment":0,
          "IsPreAppointmentIndex":0
       }
-   }
+   },
+   "contacts":[
+      {
+         "id":1,
+         "title":"hello",
+         "description":"hello",
+         "time":"hello"
+      },
+      {
+         "id":2,
+         "title":"hello",
+         "description":"hello",
+         "time":"hello"
+      },
+      {
+         "id":3,
+         "title":"hello",
+         "description":"hello",
+         "time":"hello"
+      }
+   ]
 }
