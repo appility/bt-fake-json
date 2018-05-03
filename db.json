@@ -1,144 +1,149 @@
 {
-   "Retrieve_Milestone_Details_For_Given_Order_Item":{
-      "isSuccess":true,
-      "code":600,
-      "errorMessage":" ",
-      "result":[
-         {
-            "Nodes":[
-               {
-                  "DisplayName":"Order received",
-                  "Date":"2016-12-14T00:00:00Z",
-                  "Description":" ",
-                  "IsActiveNode":"false",
-                  "IsFirstActiveNode":"false",
-                  "AuthLevel":2,
-                  "NodeType":0
-               },
-               {
-                  "DisplayName":"Order checks",
-                  "Date":"2016-12-14T00:00:00Z",
-                  "Description":"We need to carry out checks before we can fulfill your order. ",
-                  "IsActiveNode":"true",
-                  "IsFirstActiveNode":"true",
-                  "AuthLevel":2,
-                  "NodeType":1
-               },
-               {
-                  "AppointmentAmendSource":0,
-                  "SiteContactAmendSource":"2",
-                  "AltSiteContactAmendSource":0,
-                  "SiteContact":{
-                     "ContactContext":"Permanent",
-                     "ContactKey":"820ZDQC282",
-                     "Email":"mohanwala@bt.com",
-                     "FirstName":"Ramesh",
-                     "LastName":"Wala",
-                     "PreferredContact":"Work",
-                     "Title":"Mr",
-                     "HomePhone":" ",
-                     "WorkPhone":"0100954123",
-                     "Mobile":" "
-                  },
-                  "DisplayName":"Engineer appointment",
-                  "Date":null,
-                  "Description":"Engineer appointment not required",
-                  "IsActiveNode":"true",
-                  "IsFirstActiveNode":false,
-                  "AuthLevel":2,
-                  "NodeType":4
-               },
-               {
-                  "DisplayName":"Order checks",
-                  "Date":"2016-12-14T00:00:00Z",
-                  "Description":"We need to carry out checks before we can fulfill your order. ",
-                  "IsActiveNode":"true",
-                  "IsFirstActiveNode":"true",
-                  "AuthLevel":2,
-                  "NodeType":1
-               },
-               {
-                  "ActivationAmendSource":2,
-                  "DisplayName":"Completion",
-                  "Date":null,
-                  "Description":"Completion date not yet confirmed",
-                  "IsActiveNode":true,
-                  "IsFirstActiveNode":false,
-                  "AuthLevel":2,
-                  "NodeType":5
-               }
-            ]
-         }
-      ]
-   },
-   "Order_Details_By_Order_ReferenceNumber":{
-      "isSuccess":true,
-      "code":600,
-      "errorMessage":"",
-      "result":{
-         "OrderMetaInfo":{
-            "OrderRef":"BTDLV965",
-            "OrderDescription":"BT Business Phone line related order",
-            "OrderStatus":"In Progress",
-            "EstimatedCompletionDate":"23 Dec 2016",
-            "OrderPlacedDate":"15 Sep 2016",
-            "OrderProductsCount":1,
-            "AuthLevel":2,
-            "IsCONFOrder":false,
-            "CurrentPage":1,
-            "IsStrategic":true
-         },
-         "Products":[
-            {
-               "ProductIcon":"phoneIcon",
-               "ProductName":"BT Business Phone line",
-               "ActiveMilestone":"Order Checks",
-               "ProductDescription":"Provision of BT Business Phone line",
-               "ProductDuedate":"23 Dec 2016",
-               "OneOffPrice":120,
-               "MonthlyPrice":21.2,
-               "PercentageCompletion":50,
-               "OrderStatusLongDescription":"We're making some initial checks before we can start processing your order.",
-               "Status":"In Progress",
-               "ExpectedDispatchDate":"0001-01-01T00:00:00Z",
-               "EngineeringAppointmentDate":"2016-12-23T08:30:00Z",
-               "EngineeringAppointmentSlot":"(1pm - 6pm)",
-               "OrderItemReference":"BTDLV9651-1",
-               "ProductType":1,
-               "IsDelayedOrder":false,
-               "IsPreAppointment":0,
-               "AuthLevel":2,
-               "isCeaseOrCancelled":false,
-               "IsBundleProduct":false,
-               "OrderKey":"BTDLV965",
-               "BundleContractTerm":"24 month"
-            }
-         ],
-         "AuthLevel":2,
-         "IsBTB":true,
-         "IsDelayedOrder":false,
-         "IsPreAppointment":0,
-         "IsPreAppointmentIndex":0
+  "base": "http://my-json-server.typicode.com/appility/bt-fake-json/",
+  "endpoints": [
+    "Order_Details_By_Order_ReferenceNumber",
+    "Retrieve_Milestone_Details_For_Given_Order_Item"
+  ],
+  "Retrieve_Milestone_Details_For_Given_Order_Item": {
+    "isSuccess": true,
+    "code": 600,
+    "errorMessage": " ",
+    "result": [
+      {
+        "Nodes": [
+          {
+            "DisplayName": "Order received",
+            "Date": "2016-12-14T00:00:00Z",
+            "Description": " ",
+            "IsActiveNode": "false",
+            "IsFirstActiveNode": "false",
+            "AuthLevel": 2,
+            "NodeType": 0
+          },
+          {
+            "DisplayName": "Order checks",
+            "Date": "2016-12-14T00:00:00Z",
+            "Description": "We need to carry out checks before we can fulfill your order. ",
+            "IsActiveNode": "true",
+            "IsFirstActiveNode": "true",
+            "AuthLevel": 2,
+            "NodeType": 1
+          },
+          {
+            "AppointmentAmendSource": 0,
+            "SiteContactAmendSource": "2",
+            "AltSiteContactAmendSource": 0,
+            "SiteContact": {
+              "ContactContext": "Permanent",
+              "ContactKey": "820ZDQC282",
+              "Email": "mohanwala@bt.com",
+              "FirstName": "Ramesh",
+              "LastName": "Wala",
+              "PreferredContact": "Work",
+              "Title": "Mr",
+              "HomePhone": " ",
+              "WorkPhone": "0100954123",
+              "Mobile": " "
+            },
+            "DisplayName": "Engineer appointment",
+            "Date": null,
+            "Description": "Engineer appointment not required",
+            "IsActiveNode": "true",
+            "IsFirstActiveNode": false,
+            "AuthLevel": 2,
+            "NodeType": 4
+          },
+          {
+            "DisplayName": "Order checks",
+            "Date": "2016-12-14T00:00:00Z",
+            "Description": "We need to carry out checks before we can fulfill your order. ",
+            "IsActiveNode": "true",
+            "IsFirstActiveNode": "true",
+            "AuthLevel": 2,
+            "NodeType": 1
+          },
+          {
+            "ActivationAmendSource": 2,
+            "DisplayName": "Completion",
+            "Date": null,
+            "Description": "Completion date not yet confirmed",
+            "IsActiveNode": true,
+            "IsFirstActiveNode": false,
+            "AuthLevel": 2,
+            "NodeType": 5
+          }
+        ]
       }
-   },
-   "contacts":[
-      {
-         "id":1,
-         "title":"hello",
-         "description":"hello",
-         "time":"hello"
+    ]
+  },
+  "Order_Details_By_Order_ReferenceNumber": {
+    "isSuccess": true,
+    "code": 600,
+    "errorMessage": "",
+    "result": {
+      "OrderMetaInfo": {
+        "OrderRef": "BTDLV965",
+        "OrderDescription": "BT Business Phone line related order",
+        "OrderStatus": "In Progress",
+        "EstimatedCompletionDate": "23 Dec 2016",
+        "OrderPlacedDate": "15 Sep 2016",
+        "OrderProductsCount": 1,
+        "AuthLevel": 2,
+        "IsCONFOrder": false,
+        "CurrentPage": 1,
+        "IsStrategic": true
       },
-      {
-         "id":2,
-         "title":"hello",
-         "description":"hello",
-         "time":"hello"
-      },
-      {
-         "id":3,
-         "title":"hello",
-         "description":"hello",
-         "time":"hello"
-      }
-   ]
+      "Products": [
+        {
+          "ProductIcon": "phoneIcon",
+          "ProductName": "BT Business Phone line",
+          "ActiveMilestone": "Order Checks",
+          "ProductDescription": "Provision of BT Business Phone line",
+          "ProductDuedate": "23 Dec 2016",
+          "OneOffPrice": 120,
+          "MonthlyPrice": 21.2,
+          "PercentageCompletion": 50,
+          "OrderStatusLongDescription": "We're making some initial checks before we can start processing your order.",
+          "Status": "In Progress",
+          "ExpectedDispatchDate": "0001-01-01T00:00:00Z",
+          "EngineeringAppointmentDate": "2016-12-23T08:30:00Z",
+          "EngineeringAppointmentSlot": "(1pm - 6pm)",
+          "OrderItemReference": "BTDLV9651-1",
+          "ProductType": 1,
+          "IsDelayedOrder": false,
+          "IsPreAppointment": 0,
+          "AuthLevel": 2,
+          "isCeaseOrCancelled": false,
+          "IsBundleProduct": false,
+          "OrderKey": "BTDLV965",
+          "BundleContractTerm": "24 month"
+        }
+      ],
+      "AuthLevel": 2,
+      "IsBTB": true,
+      "IsDelayedOrder": false,
+      "IsPreAppointment": 0,
+      "IsPreAppointmentIndex": 0
+    }
+  },
+  "contacts": [
+    {
+      "id": 1,
+      "title": "hello",
+      "description": "hello",
+      "time": "hello"
+    },
+    {
+      "id": 2,
+      "title": "hello",
+      "description": "hello",
+      "time": "hello"
+    },
+    {
+      "id": 3,
+      "title": "hello",
+      "description": "hello",
+      "time": "hello"
+    }
+  ]
 }
